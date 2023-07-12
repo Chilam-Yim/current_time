@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
+.TimerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-family: 'Oxanium', cursive;
+  font-size: 20px;
+  user-select: none;
+  text-align: center;
+ 
+}
+
+body{
+  background-color: black;
+
+   text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.button{
+  margin-top: 10px;
+  padding:20px;
+  border-radius: 20px;
+  border: 4px solid rgb(255, 255, 255);
+  color:rgb(255, 255, 255);
+  background: transparent;
+  
+
+  transition: 0.5s;
+  font-family: 'Oxanium', cursive;
+  font-size: 20px;
+  z-index: 100;
+  pointer-events: auto;
+}
+
+.button:hover{
+  background-color: rgb(255, 255, 255);
+  border: 4px solid rgb(255, 255, 255);
+  color:black;
+  cursor:pointer;
+  margin-top: 20;
+  margin-bottom: 20;
+}
+
+.container{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rectangles-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:-1
+}
+
+.rectangle {
+ z-index: -10; 
+  height: 100vh;
+  width: 20px;
+  margin: 0 11px;
+}
+
+
